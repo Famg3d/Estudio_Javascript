@@ -1,16 +1,71 @@
 # Estudio_Javascript
 - Introducción a la Programación con JavaScript
 
+## pasos para el git
+Para agregar todo usar el "add ."
+git add . 
+git status
+git commit -m 'algo'
+git push
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+And (&&) true si todo es true
+OR (||) true si uno es true
+NOT (!) invierte true/false
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA FOR
 
+A >= B, A debe ser mayor que B
+A <= B, A debe ser menor que B 
+++, suma 1
+--, resta 1
++=X, suma X cantidad
+-=X, resta X cantidad
 
+ejemplo de formula
+for (var i = 1; i <= 1; 1++)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FUNCIONES RECURSIVAS
+###example 1
+var factorial = function(n)
+{
+  if ((n == 0 ) || (n == 11))
+    return 1;
+  else
+{   
+    console.log("factorial " + n); 
+    return(n * factorial(n - 1));}
+}
 
+console.log(factorial(5));
 
+###example 2
+function  test(n)
+{
+  if ((n == 0 ) || (n == 1))
+    return 1;
+  else
+    return(n * test(n - 1));
+}
 
+console.log(test(4));
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DOCUMENTACION JAVASCRIPT
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Funciones
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arreglos tips
+X.push("Y"); (agrega un elemento al final del array)
+X.unshift("Y"); (agrega un elemento al principio del array)
+X.pop("Y"); (elemina un elemento al final del array)
+X.shift("Y"); (elimina un elemento al principio del array)
+X.splice("Y, Z"); (elimina un elemento del array fijado como numero, donde Y es la posicion que eliminara y Z es la cantidad de veces que hara esa accion)
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+var pos = X.indexOf("Y");
+console log.(pos); (mostrara en que lugar del array se encuentra Y, lo muesta en numeros)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # Cabecera H1 
@@ -158,4 +213,4 @@ otro texto
 
 ____
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
