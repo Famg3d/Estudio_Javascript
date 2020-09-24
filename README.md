@@ -28,7 +28,7 @@ ejemplo de formula
 for (var i = 1; i <= 1; 1++)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FUNCIONES RECURSIVAS
-###example 1
+### example 1
 var factorial = function(n)
 {
   if ((n == 0 ) || (n == 11))
@@ -41,7 +41,7 @@ var factorial = function(n)
 
 console.log(factorial(5));
 
-###example 2
+### example 2
 function  test(n)
 {
   if ((n == 0 ) || (n == 1))
